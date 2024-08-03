@@ -1,0 +1,81 @@
+/* .hero-slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .hero-slider .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+   */
+
+
+   /* HeroSlider container */
+.hero-slider {
+  position: relative;
+  width: 100%; /* Adjust width to make images not full screen */
+  margin: 20 auto; /* Center the slider horizontally */
+  height: 100vh; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+/* Slide styling */
+/* .custom-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; */
+ /* background-size: contain;  Ensure the image fits within the slide area */
+  /* background-repeat: no-repeat;
+  background-position: center; 
+}*/
+
+/* Toggle buttons styling */
+/* .hero-slider .hero-slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #000000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.hero-slider .hero-slider-button--previous {
+  left: 0;
+}
+
+.hero-slider .hero-slider-button--next {
+  right: 0;
+} */
+
+/* Dots navigation styling */
+/* .hero-slider .hero-slider-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.hero-slider .hero-slider-dot {
+  background: rgba(0, 0, 0, 0.5);
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hero-slider .hero-slider-dot--active {
+  background: #fff;
+} */
