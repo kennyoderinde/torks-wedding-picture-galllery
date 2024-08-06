@@ -29,8 +29,26 @@ function Navbar() {
       icon: <BiIcon.BiSolidDownArrow />,
       children: [
         {
+          name: "PreWedding",
+          path: '/pre-wedding' 
+
+        },
+        
+        {
           name: "Engagement",
           path: '/engagement' 
+
+        },
+
+        {
+          name: "Courts",
+          path: '/court' 
+
+        },
+
+        {
+          name: "Parties And Showers",
+          path: '/parties-and-showers' 
 
         },
         
@@ -45,16 +63,8 @@ function Navbar() {
           path: '/reception' 
 
         },
-        {
-          name: "Courts",
-          path: '/court' 
-
-        },
-        {
-          name: "Parties And Showers",
-          path: '/parties-and-showers' 
-
-        },
+        
+        
         
       ],
 

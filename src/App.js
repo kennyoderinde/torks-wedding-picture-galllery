@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import PhotoGallery from './pages/PhotoGallery/PhotoGallery';
 import Blog from './pages/Blog/Blog';
 
+import PreWedding from './pages/PhotoGallery/PreWedding/PreWedding.js'
 import Court from './pages/PhotoGallery/Court/Court.js'
 import Engagement from './pages/PhotoGallery/Engagement/Engagement.js'
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/blog' element={<Blog/>}/>
 
         <Route path='/court' element={<Court/>}/>
+        <Route path='/pre-wedding' element={<PreWedding />} />
         <Route path='/engagement' element={<Engagement/>}/>
         <Route path='/reception' element={<Reception/>}/>
         <Route path='/wedding' element={<Wedding/>}/>
