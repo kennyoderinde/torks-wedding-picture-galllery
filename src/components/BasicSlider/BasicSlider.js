@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { RxDotFilled } from 'react-icons/rx';
-import image1 from '../../assets/tork1.jpg';
-import image2 from '../../assets/tork2.jpg';
-import image3 from '../../assets/tork3.jpg';
-import image4 from '../../assets/tork4.jpeg';
-import image5 from '../../assets/tork5.jpeg';
-import image6 from '../../assets/tork6.jpg';
+import image1 from '../../assets/tork-landing/tork-landg-1.PNG';
+import image2 from '../../assets/tork-landing/tork-landg-2.PNG';
+import image3 from '../../assets/tork-landing/tork-landg-3.jpeg';
+import image4 from '../../assets/tork-landing/tork-landg-4.jpeg';
+import image5 from '../../assets/tork-landing/tork-landg-5.jpeg';
+import image6 from '../../assets/tork-landing/tork-landg-6.jpeg';
 
 function BasicSlider() {
   const slides = [
@@ -48,7 +48,7 @@ function BasicSlider() {
   }, [currentIndex]); // Dependency array includes currentIndex to reset the interval
 
   return (
-    <div className='max-w-full h-[780px] bg-black w-full m-auto py-8 px-4 relative group' >
+    <div className='max-w-full h-[780px] bg-black w-full m-auto py-32 px-4 relative group' >
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover transition duration-500'
