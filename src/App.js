@@ -2,9 +2,10 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navigation/Navbar'
 import LandingPage from './pages/LandingPage/LandingPage.js';
-import About from './pages/About/About';
+import WeddingProgram from './pages/WeddingProgram/WeddingProgram.js';
 import PhotoGallery from './pages/PhotoGallery/PhotoGallery';
 import Blog from './pages/Blog/Blog';
+import Contact from './pages/Contact/Contact'
 
 import PreWedding from './pages/PhotoGallery/PreWedding/PreWedding.js'
 import Court from './pages/PhotoGallery/Court/Court.js'
@@ -21,7 +22,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<LandingPage />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/wedding-program' element={<WeddingProgram />} />
         <Route path='/photo-gallery' element={<PhotoGallery/>}/>
         <Route path='/blog' element={<Blog/>}/>
 

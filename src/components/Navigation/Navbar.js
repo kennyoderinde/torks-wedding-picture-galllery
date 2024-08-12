@@ -75,16 +75,19 @@ function Navbar() {
 
     },
 
+
     {
-      name: "About",
-      path: '/about',
+      name: "Wedding Program",
+      path: '/wedding-program',
       
     },
+    
+    
 
     
     {
-      name: <span className="sm:-ml-4 -ml-1">EN US</span>,
-      path: '/en-us' ,
+      name: <span className="sm:-ml-24 -ml-1">Contact</span>,
+      path: '/contact' ,
       icon: <BiIcon.BiSolidDownArrow />,
       icon1: <HiIcon.HiOutlineTranslate />,
 
