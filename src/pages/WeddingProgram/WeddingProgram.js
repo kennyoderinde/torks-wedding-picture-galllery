@@ -1,4 +1,8 @@
 import React from 'react';
+import './Leaves.css';
+import './PdfButton.css'
+import './ButtonCenter.css'
+
 
 const PdfPage = () => {
   const openPdf = () => {
@@ -7,12 +11,39 @@ const PdfPage = () => {
   };
 
   return (
-    <div className='w-20 h-10 bg-white mt-40'>
-      <h1 className=''>PDF Page</h1>
-      <button onClick={openPdf}>Open PDF</button>
+    <>
+
+     <div id="leaves">
+      {[...Array(15)].map((_, index) => (
+        <i key={index}></i>
+      ))}
     </div>
+
+    <div className="container">
+      <div className='w-80 h-40 bg-white'>
+        <h1>PDF Page</h1>
+        <button onClick={openPdf}>
+          <span>Open PDF</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="leaves">
+      {[...Array(15)].map((_, index) => (
+        <i key={index}></i>
+      ))}
+    </div>
+
+    </>
+    
   );
 };
 
 export default PdfPage;
+
+
+
+
+
+
 

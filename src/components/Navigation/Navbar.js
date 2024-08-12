@@ -77,7 +77,7 @@ function Navbar() {
 
 
     {
-      name: "Wedding Program",
+      name: "Program",
       path: '/wedding-program',
       
     },

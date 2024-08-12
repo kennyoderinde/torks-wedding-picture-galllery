@@ -1,0 +1,30 @@
+/* Ensure this is included in your CSS file */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222; /* Optional: Set the background color */
+  }
+  
+  .w-80 {
+    width: 80%;
+  }
+  
+  .h-40 {
+    height: 40%;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+  
