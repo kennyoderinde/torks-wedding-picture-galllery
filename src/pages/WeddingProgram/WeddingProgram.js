@@ -14,7 +14,7 @@ const PdfPage = () => {
     <>
 
      <div id="leaves">
-      {[...Array(15)].map((_, index) => (
+      {[...Array(35)].map((_, index) => (
         <i key={index}></i>
       ))}
     </div>
